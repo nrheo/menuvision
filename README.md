@@ -74,7 +74,7 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 
 ## 🎥 Demo Video
 
-📺 [Watch the 3-minute demo on YouTube](https://your-demo-video-link.com) *(replace with actual link)*
+📺 [Watch the 3-minute demo on YouTube](https://youtu.be/NYFd8oKM4nY)
 
 ⏱️ **Video Timeline**
 - 0:00 ~ 0:30: Introduction to Menu Vision
