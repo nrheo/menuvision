@@ -85,7 +85,7 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 
 ---
 
-## 🛠️ Challenges
+## 🧩 Challenges
 
 - 🌐 CORS errors while connecting the frontend with Flask and AWS resources
 - 📄 Textract failing on some non-standard or unsupported PDF formats  
@@ -94,7 +94,7 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 
 ---
 
-## 🔮 What's Next for Menu Vision
+## 🪄 What's Next for Menu Vision
 
 - 🖼️ Add OCR support for image-based menus (JPG/PNG)
 - 🍽️ Allow multiple dishes to be selected and visualized in one session
