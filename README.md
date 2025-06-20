@@ -84,26 +84,6 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 
 ---
 
-## 📁 Repository Structure
-menuvision/
-├── frontend/ # HTML/CSS/JS UI
-│ ├── index.html
-│ ├── style.css
-│ ├── script.js
-│ └── config.js
-├── backend/ # Flask API
-│ ├── app.py
-│ └── requirements.txt
-├── lambdas/ # AWS Lambda functions
-│ ├── extractTextLambda.py
-│ ├── translateTextLambda.py
-│ └── generateImageLambda.py
-├── stepfunction/ # ASL JSON definition for Step Function
-│ └── state_machine_definition.json
-├── sample-menus/ # Optional: PDF test menus
-│ └── spanish_menu.pdf
-└── README.md # You're here!
-
 ## 💡 Future Improvements
 
 - 🈲 Add OCR handling for image-based Korean menus  
