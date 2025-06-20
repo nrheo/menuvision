@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MenuVision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>MenuVision</h1>
+        <p class="subtitle">Extract. Translate. Visualize your menu!</p>
+
+        <div class="upload-section">
+            <input type="file" id="pdfUpload" accept=".pdf" />
+            <button onclick="uploadPDF()">Upload PDF</button>
+        </div>
+
+        <div class="text-section">
+            <h2>Translated Text</h2>
+            <textarea id="translatedText" readonly></textarea>
+        </div>
+
+        <div class="select-section">
+            <h2>Select Menu Item</h2>
+            <input type="text" id="selectedItem" placeholder="Type a menu item from above..." />
+        </div>
+
+        <div class="generate-section">
+            <button onclick="generateImage()">Generate Image</button>
+            <div id="generatedImageContainer"></div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
