@@ -81,7 +81,7 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 - 0:30 ~ 1:20: Explanation of how AWS Lambda is used
 - 1:30 ~ 2:30: Demo - Pasta Menu (English menu)
 - 2:20 ~ 3:20: Demo - Vietnamese Menu (English with local dish names)
-- 3:20 ~ 3:54: Demo - Spanish Menu (Fully in Spanish, requires translation)
+- 3:20 ~ 3:53: Demo - Spanish Menu (Fully in Spanish, requires translation)
 
 ---
 
