@@ -1,0 +1,23 @@
+{
+    "Comment": "Extract and Translate Step Function",
+    "StartAt": "ExtractText",
+    "States": {
+        "ExtractText": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-east-1:AWS ID:function:extractTextLambda",
+            "Next": "TranslateText",
+            "ResultPath": "$.extractResult"
+        },
+        "TranslateText": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-east-1:AWS ID:function:translateTextLambda",
+            "End": true,
+            "Parameters": {
+                "text.$": "$.extractResult.text",
+                "source.$": "$.extractResult.language",
+                "target": "en"
+            },
+            "ResultPath": "$.translatedResult"
+        }
+    }
+}
