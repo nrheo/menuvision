@@ -85,12 +85,16 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 
 ---
 
-## 💡 Future Improvements
+## ⚠️ Challenges
 
-- 🈲 Add OCR handling for image-based Korean menus  
-- 🌏 Support more languages (e.g., Japanese, Chinese) using `analyze_document`  
-- 🕓 Save image generation history per user session  
-- 🌐 Deploy Flask backend using API Gateway + Lambda for full serverless setup  
+- 🧩 CORS errors while connecting the frontend with Flask and AWS resources
+- 📄 Textract failing on some non-standard or unsupported PDF formats  
+- 🎨 Prompt tuning for consistent, high-quality image generation  
+- ⏳ Synchronizing frontend display with backend Step Function completion  
+
+---
+
+## 🔮 What's Next for Menu Vision
 
 ---
 
