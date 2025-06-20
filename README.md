@@ -85,4 +85,37 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 ---
 
 ## 📁 Repository Structure
+menuvision/
+├── frontend/ # HTML/CSS/JS UI
+│ ├── index.html
+│ ├── style.css
+│ ├── script.js
+│ └── config.js
+├── backend/ # Flask API
+│ ├── app.py
+│ └── requirements.txt
+├── lambdas/ # AWS Lambda functions
+│ ├── extractTextLambda.py
+│ ├── translateTextLambda.py
+│ └── generateImageLambda.py
+├── stepfunction/ # ASL JSON definition for Step Function
+│ └── state_machine_definition.json
+├── sample-menus/ # Optional: PDF test menus
+│ └── spanish_menu.pdf
+└── README.md # You're here!
 
+## 💡 Future Improvements
+
+- 🈲 Add OCR handling for image-based Korean menus  
+- 🌏 Support more languages (e.g., Japanese, Chinese) using `analyze_document`  
+- 🕓 Save image generation history per user session  
+- 🌐 Deploy Flask backend using API Gateway + Lambda for full serverless setup  
+
+---
+
+## 🔐 Security Notes
+
+- Secrets like AWS credentials, bucket names, and ARNs are not included in this repo.  
+- Replace placeholders in `config.js` or use environment variables when running locally.
+
+---
