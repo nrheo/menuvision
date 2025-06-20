@@ -76,11 +76,12 @@ All three Lambda functions are orchestrated using **AWS Step Functions** and inv
 
 📺 [Watch the 3-minute demo on YouTube](https://your-demo-video-link.com) *(replace with actual link)*
 
-- Demonstrates uploading a menu  
-- Translates a Spanish menu to English  
-- Selects _“Paella de mariscos”_  
-- Shows AI-generated food image using Bedrock  
-- Explains backend flow and Lambda usage  
+⏱️ **Video Timeline**
+0:00 – 0:30: Introduction to Menu Vision
+0:30 – 1:20: Explanation of how AWS Lambda is used
+1:30 – 2:30: Demo - Pasta Menu (English menu)
+2:20 – 3:20: Demo - Vietnamese Menu (English with local dish names)
+3:20 – 3:54: Demo - Spanish Menu (Fully in Spanish, requires translation)
 
 ---
 
