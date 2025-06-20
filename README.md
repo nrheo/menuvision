@@ -61,11 +61,11 @@ This app uses **three Lambda functions**:
 ### 2. `TranslateTextLambda`
 - Triggered by Step Function  
 - Detects language from the extracted text  
-- If non-English, uses `translate_text` to convert to English  
+- If non-English, uses `translate_text` uses Amazon Translate to convert to English  
 
 ### 3. `GenerateImageLambda`
 - Triggered by Flask backend  
-- Uses Amazon Bedrock to create an image prompt (e.g., _"high-quality photo of Paella"_)  
+- Uses Amazon Bedrock (Stable Diffusion) to create an image prompt (e.g., _"high-quality photo of Paella"_)  
 - Stores and returns a public S3 image URL  
 
 All three Lambda functions are orchestrated using **AWS Step Functions** and invoked programmatically via the backend.
